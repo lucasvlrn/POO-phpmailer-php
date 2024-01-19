@@ -35,11 +35,11 @@ if ($connection) {
     $email->Host = 'smtp.gmail.com';
     $email->SMTPAuth = true;
     $email->SMTPSecure = 'tls';
-    $email->Username = 'testapollo707@gmail.com';
-    $email->Password = 'xtli bdvr qlhu pmkz';
+    $email->Username = 'email@apagado';
+    $email->Password = 'senhona';
     $email->Port = 587;
 
-    $email->setFrom('testapollo707@gmail.com');
+    $email->setFrom('email@apagado');
     $email->isHTML(true);
     $email->addReplyTo('no-reply@email.com.br');
     $email->addAddress($user->email, $user->login);
