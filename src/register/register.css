@@ -1,0 +1,40 @@
+@import url(../assets/main.css);
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#change {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 8px;
+}
+#title,
+.input-text {
+  color: hsl(205, 16%, 77%);
+}
+
+form {
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.inputs {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+.submit {
+  width: 10rem;
+}

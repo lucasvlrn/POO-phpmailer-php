@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="register.css" />
+    <script defer src="register.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <title>Cadastro</title>
+  </head>
+  <body data-theme="light" id="body">
+    <div class="container">
+      <input type="checkbox" role="switch" id="change" />
+      <form action="register.php" method="post">
+        <h1 id="title">Faça seu Cadastro</h1>
+        <div class="inputs">
+          <label for="login">Login</label>
+          <input
+            name="login"
+            id="login"
+            type="text"
+            maxlength="12"
+            required
+            placeholder="Crie um login"
+            class="input-text"
+          />
+        </div>
+        <div class="inputs">
+          <label for="senha">Senha</label>
+          <input
+            name="password"
+            id="senha"
+            type="password"
+            maxlength="12"
+            required
+            placeholder="Crie uma senha"
+            class="input-text"
+          />
+        </div>
+        <div class="inputs">
+          <label for="email">Email</label>
+          <input
+            name="email"
+            id="email"
+            type="email"
+            maxlength="30"
+            required
+            placeholder="Digite seu email"
+            class="input-text"
+          />
+        </div>
+        <button class="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
